@@ -14,7 +14,8 @@ string numberB = String.Empty;
 
 for (int i = 0; i < numberA.Length; i++)
 {
-    numberB = numberB + numberA.Substring(numberA.Length - i -1, 1);
+    numberB = numberB + numberA [numberA.Length - i -1];
+    //numberB = numberB + numberA.Substring(numberA.Length - i -1, 1);
 }
 
 Console.WriteLine(numberB);

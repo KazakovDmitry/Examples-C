@@ -8,11 +8,11 @@
 
 Console.WriteLine("Введите пятизначное число: ");
 string numberA = Console.ReadLine();
-string numberB;
+string numberB = String.Empty;
 
-numberB = numberA.Substring(numberA.Length - 1, 1);
+//numberB = numberA.Substring(numberA.Length - 1, 1);
 
-for (int i = 1; i < numberA.Length; i++)
+for (int i = 0; i < numberA.Length; i++)
 {
     numberB = numberB + numberA.Substring(numberA.Length - i -1, 1);
 }

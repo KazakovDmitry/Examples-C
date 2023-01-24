@@ -3,20 +3,6 @@
 [1,0,1,1,0,1,0,0]
 */
 
-int [] RandomArray(int length)
-{
-    Random number = new Random();
-    int [] arr = new int [length];
-    for (int i = 0; i < length; i++)
-    {
-        arr [i] = number.Next(0, 2);
-        Console.Write($"{arr[i]} ");
-    }
-    return arr;
-
-}
-
-int a = new Random().Next(0,5)
 int GetNumber(string message)
 {
     int result = 0;
@@ -35,6 +21,19 @@ int GetNumber(string message)
         }
     }
     return result;
+}
+
+int [] RandomArray(int length)
+{
+    Random number = new Random();
+    int [] arr = new int [length];
+    for (int i = 0; i < length; i++)
+    {
+        arr [i] = number.Next(0, 2);
+        Console.Write($"{arr[i]} ");
+    }
+    return arr;
+
 }
 
 int number = GetNumber("Введите длинну массива ");

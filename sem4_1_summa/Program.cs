@@ -39,4 +39,5 @@ int GetSumm(int number)
 
 int number = GetNumber("Введите число больше 1");
 int sum = GetSumm(number);
+
 Console.WriteLine($"сумма чисел от 1 до {number} = {sum}");

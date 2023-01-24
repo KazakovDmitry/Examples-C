@@ -37,4 +37,5 @@ int [] RandomArray(int length)
 }
 
 int number = GetNumber("Введите длинну массива ");
+
 RandomArray(number);

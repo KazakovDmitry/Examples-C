@@ -35,4 +35,5 @@ int MultipleNumers (int number)
 
 int number = GetNumber("Введите число: ");
 int rezult = MultipleNumers(number);
+
 Console.WriteLine(rezult);

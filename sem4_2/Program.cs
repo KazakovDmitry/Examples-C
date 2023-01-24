@@ -21,7 +21,6 @@ int GetNumber(string message)
             Console.WriteLine("Ввели не число. Повторите ввод");
         }
     }
-
     return Math.Abs(result);
 }
 

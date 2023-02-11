@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите число: ");
 string numberStr = Console.ReadLine();
 int number = Convert.ToInt32(numberStr);
 
